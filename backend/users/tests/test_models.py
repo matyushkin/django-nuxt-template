@@ -1,4 +1,4 @@
-from my_awesome_project.users.models import User
+from backend.users.models import User
 
 
 def test_user_get_absolute_url(user: User):

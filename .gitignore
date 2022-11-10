@@ -270,7 +270,7 @@ Session.vim
 tags
 
 ### Project template
-my_awesome_project/media/
+backend/media/
 
 .pytest_cache/
 .ipython/

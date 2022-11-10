@@ -1,6 +1,6 @@
-# My Awesome Project
+# Django + Nuxt
 
-Behold My Awesome Project!
+Django and Nuxt Template
 
 [![Built with Cookiecutter Django](https://img.shields.io/badge/built%20with-Cookiecutter%20Django-ff69b4.svg?logo=cookiecutter)](https://github.com/cookiecutter/cookiecutter-django/)
 [![Black code style](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/ambv/black)
@@ -27,7 +27,7 @@ For convenience, you can keep your normal user logged in on Chrome and your supe
 
 Running type checks with mypy:
 
-    $ mypy my_awesome_project
+    $ mypy backend
 
 ### Test coverage
 
@@ -52,7 +52,7 @@ This app comes with Celery.
 To run a celery worker:
 
 ``` bash
-cd my_awesome_project
+cd backend
 celery -A config.celery_app worker -l info
 ```
 
